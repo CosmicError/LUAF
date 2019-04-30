@@ -1,7 +1,6 @@
 -- Info -- 
 
 Started 3/5/2019
-
 Finished Alpha - 3/19/2019
 
 Finished Beta - 4/10/2019
@@ -10,7 +9,7 @@ Ready to Use - 4/30/2019
 
 Current Version - Beta v1.4
 
-Supported Python Versions - 3.5.x
+Supported Python Versions - 3.5.x, 
                             3.6.x
 
 all other python versions are not tested and not developed for
