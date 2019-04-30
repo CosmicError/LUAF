@@ -1,4 +1,6 @@
--- Info -- 
+---------------------------------------------------------------
+                          Info
+---------------------------------------------------------------
 
 Started 3/5/2019
 
@@ -15,7 +17,9 @@ Supported Python Versions - 3.5.x,
 
 all other python versions are not tested and not developed for
 
--- Known Bugs -- 
+---------------------------------------------------------------
+                          Known Bugs
+---------------------------------------------------------------
 
 1a) ELUAR creating FIleNotFounError
 
@@ -23,8 +27,9 @@ all other python versions are not tested and not developed for
 
 
 
--- Bug Reasons -- 
-
+---------------------------------------------------------------
+                          Known Bug Reasons
+---------------------------------------------------------------
 1a) gives error because the program is creating the account registered
 
 1b) give error because the program has found the file as an existing account
@@ -32,8 +37,9 @@ all other python versions are not tested and not developed for
 
 
 
--- Files -- 
-
+---------------------------------------------------------------
+                          File name help
+---------------------------------------------------------------
 ELUAF or Encryptped Local User Account Framework (the folder name)
 
 ELUAL or Encrypted Local User Account Login
