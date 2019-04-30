@@ -52,9 +52,9 @@ ELUAFK or Encrypting Local User Account Framework Key
 
 
 
--------------------------------- 
-              NOTE!
--------------------------------- 
+---------------------------------------------------------------
+                          NOTE!
+---------------------------------------------------------------
 ELUAR decrypts the encrypted usernames when 
 preforming the credentials match, this could
 be a potential security flaw for motivated 
