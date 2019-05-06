@@ -24,7 +24,7 @@ class ulogin:
       #and password and removes the last '
       try:
          __location__ = os.path.realpath(os.path.join(os.getcwd(), os.path.dirname(__file__)))
-         path2 = str(os.path.realpath(os.path.join(os.getcwd(), os.path.dirname(__file__)))) + '/ELA/'
+         path2 = str(os.path.realpath(os.path.join(os.getcwd(), os.path.dirname(__file__)))) + os.sep + 'ELA' + os.sep
          linedata1 = str(open(os.path.join(path2, username + '.txt'), 'r').readlines()[0:1])
          linedata2 = str(open(os.path.join(path2, username + '.txt'), 'r').readlines()[1:2])
       except FileNotFoundError:
@@ -37,11 +37,11 @@ class ulogin:
       fpass = linepass[2:len(linepass) - 1]
       try:
          #gets the current path and makes a folder named ELA
-         path = str(os.path.realpath(os.path.join(os.getcwd(), os.path.dirname(__file__)))) + '/ELA'
+         path = str(os.path.realpath(os.path.join(os.getcwd(), os.path.dirname(__file__)))) + os.sep + 'ELA'
          os.mkdir(path)
       except FileExistsError:
          print('working...')
-      if os.path.isfile(path + '/' + username + '.txt') == True:
+      if os.path.isfile(path + os.sep + username + '.txt') == True:
          if usern == fuser and passw == fpass:
             print("you did it!")
             return True
