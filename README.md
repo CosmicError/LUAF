@@ -10,7 +10,7 @@ Finished Beta - 4/10/2019
 
 Ready to Use - 4/30/2019
 
-Current Version - Beta v1.4
+Current Version - v1.6
 
 Supported Python Versions - 3.5.x, 
                             3.6.x
