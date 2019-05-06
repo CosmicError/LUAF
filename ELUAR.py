@@ -58,11 +58,11 @@ class eregister:
         rpass = encryptp[2:passlen]
         try:
             #gets the current path and makes a folder named LA
-            path = str(os.path.realpath(os.path.join(os.getcwd(), os.path.dirname(__file__)))) + '/ELA'
+            path = str(os.path.realpath(os.path.join(os.getcwd(), os.path.dirname(__file__)))) + os.sep + 'ELA'
             os.mkdir(path)
         except FileExistsError:
             print('working...')
-        if os.path.isfile(path + '/' + username + '.txt') == False:
+        if os.path.isfile(path + os.sep + username + '.txt') == False:
             if len(username) <= 24 and len(password) <= 40 and len(username) >=3 and len(password) >=1:
             #checks if username and password do not exceed the stated maximum and minimum
                 IllegalChars = ['$', '@', '/', '[', ']', '{', '}', '<', '>', '=', '+', '?', '#', '%', '^', '&', '*', '(', ')', '|', ';', ':', ',', '~', '`', '\\', "\'", '\"', '.', ' ']
