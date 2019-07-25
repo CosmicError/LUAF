@@ -12,7 +12,6 @@ elif login.userlogin == True:
 
 import os
 import hashlib
-from LUAFCONFIG import sql, encoding
 
 class login:
     def userlogin(username, password):
