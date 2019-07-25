@@ -1,8 +1,8 @@
 '''
 
-ELUAR also known as Encrypted Local USer Account Registery
+LUAR also known as Local USer Account Registery
 
-ELUAR will return false is the account exists, too many or too 
+LUAR will return false is the account exists, too many or too 
 little characters in the username or password or if the username 
 contains Illegal characters
 
