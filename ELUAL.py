@@ -1,6 +1,6 @@
 '''
-ELUAL or Encrypted Local User Account Login
-ELUAL will return false if the account does not exist or the username/password is incorrect
+LUAL or Encrypted Local User Account Login
+LUAL will return false if the account does not exist or the username/password is incorrect
 
 so in your code you could do for example
 
