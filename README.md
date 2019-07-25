@@ -10,10 +10,11 @@ Finished Beta - 4/10/2019
 
 Ready to Use - 4/30/2019
 
-Current Version - v1.6
+Current Version - v2
 
 Supported Python Versions - 3.5.x, 
-                            3.6.x
+                            3.6.x,
+                            3.7.x
 
 all other python versions are not tested and not developed for
 
@@ -21,9 +22,9 @@ all other python versions are not tested and not developed for
                           Known Bugs
 ---------------------------------------------------------------
 
-1a) ELUAR creating FIleNotFounError
+1a) ELUAR creating FileNotFounError
 
-1b) ELUAR creating FIleExistsError
+1b) ELUAR creating FileExistsError
 
 
 
@@ -40,10 +41,20 @@ all other python versions are not tested and not developed for
 ---------------------------------------------------------------
                           File name help
 ---------------------------------------------------------------
-ELUAF or Encryptped Local User Account Framework (the folder name)
+LUAF or Encryptped Local User Account Framework (the folder name)
 
-ELUAL or Encrypted Local User Account Login
+LUAL or Encrypted Local User Account Login
 
-ELUAR or Encrypted Local User Account Register
+LUAR or Encrypted Local User Account Register
 
-ELUAFK or Encrypting Local User Account Framework Key
+
+---------------------------------------------------------------
+                          Comming Soon
+---------------------------------------------------------------
+SQL server support
+
+MySQL Support
+
+Encoding enabled/disabled support
+
+new config file
